@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prestasi"
+            android:icon="@drawable/prestasi"
+            android:title="Prestasi" />
+        <item
+            android:id="@+id/nav_programstudi"
+            android:icon="@drawable/programstudi"
+            android:title="Program Studi" />
+        <item
+            android:id="@+id/nav_fasilitas"
+            android:icon="@drawable/fasilitas"
+            android:title="Fasilitas" />
+        <item
+            android:id="@+id/nav_ekstrakulikuler"
+            android:icon="@drawable/ekstrakulikuler"
+            android:title="Ekstrakulikuler" />
+        <item
+            android:id="@+id/nav_pendaftaran"
+            android:icon="@drawable/pendaftaran"
+            android:title="Pendaftaran" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_loker"
+                android:icon="@drawable/loker"
+                android:title="Berita Loker" />
+            <item
+                android:id="@+id/nav_buletin"
+                android:icon="@drawable/buletin"
+                android:title="Buletin" />
+        </menu>
+    </item>
+
+</menu>
