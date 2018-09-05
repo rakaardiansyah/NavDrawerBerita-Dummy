@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppLepisi</string>
+    <string name="app_name">TestDummyREST</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -9,5 +9,10 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="send_to">Share</string>
+    <string name="version_1_0_0">Version 1.0.0</string>
+    <string name="info_gabut_app">Info Gabut App</string>
+    <string name="raka_ardiansyah23_gmail_com">raka.ardiansyah23@gmail.com</string>
+    <string name="infogabutapp">InfogabutApp</string>
+    <string name="todo">TODO</string>
 
 </resources>

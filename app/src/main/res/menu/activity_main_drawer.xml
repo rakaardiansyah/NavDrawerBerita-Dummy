@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group android:id="@+id/group1" android:checkableBehavior="single">
         <item
             android:id="@+id/nav_prestasi"
             android:icon="@drawable/prestasi"
@@ -24,19 +24,21 @@
             android:id="@+id/nav_pendaftaran"
             android:icon="@drawable/pendaftaran"
             android:title="Pendaftaran" />
+
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_loker"
-                android:icon="@drawable/loker"
-                android:title="Berita Loker" />
-            <item
-                android:id="@+id/nav_buletin"
-                android:icon="@drawable/buletin"
-                android:title="Buletin" />
-        </menu>
-    </item>
+    <group android:title="Berita"
+        android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_loker"
+            android:icon="@drawable/loker"
+            android:title="Berita Loker" />
+        <item
+            android:id="@+id/nav_buletin"
+            android:icon="@drawable/buletin"
+            android:title="Buletin" />
+
+    </group>
 
 </menu>
+

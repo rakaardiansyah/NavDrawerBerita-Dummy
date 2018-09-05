@@ -20,15 +20,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--<activity android:name=".MainActivity" />-->
-        <!--<activity android:name=".Launcher" android:theme="@style/AppTheme.NoActionBar">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        <!--</activity>-->
-        <activity android:name=".PrestasiFragment"/>
-        <activity android:name=".ProgramStudiFragment"/>
+        <!-- <activity android:name=".MainActivity" /> -->
+        <!-- <activity android:name=".Launcher" android:theme="@style/AppTheme.NoActionBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity android:name=".PrestasiFragment" />
+        <activity android:name=".ProgramStudiFragment" />
+        <activity
+            android:name=".about"
+            android:configChanges="screenLayout|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden" />
     </application>
 
 </manifest>

@@ -36,9 +36,9 @@ public class Programstudi_Adapter extends RecyclerView.Adapter<Programstudi_Adap
     }
 
 
-    @Override
-    public void onBindViewHolder(final ViewHolder holder, int position) {
-        ProgramStudiModel model = datas.get(position);
+          @Override
+        public void onBindViewHolder(final ViewHolder holder, int position) {
+            ProgramStudiModel model = datas.get(position);
 
         holder.getTvJudulProdi().setText(model.getCardName());
 
@@ -107,10 +107,10 @@ public class Programstudi_Adapter extends RecyclerView.Adapter<Programstudi_Adap
         public ViewHolder(View itemView) {
             super(itemView);
 
-            tvJudulProdi = (TextView) itemView.findViewById(R.id.titleTextView);
-            ivProdi = (ImageView) itemView.findViewById(R.id.coverImageView);
-//            likeImage = (ImageView) itemView.findViewById(R.id.likeImageView);
-//            shareImage = (ImageView) itemView.findViewById(R.id.shareImageView);
+            tvJudulProdi = itemView.findViewById(R.id.titleTextView);
+            ivProdi = itemView.findViewById(R.id.coverImageView);
+//            likeImage = itemView.findViewById(R.id.likeImageView);
+//            shareImage = itemView.findViewById(R.id.shareImageView);
         }
 
         public TextView getTvJudulProdi() {

@@ -1,5 +1,6 @@
 package id.co.blogspot.infogabut.applepisi;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -61,8 +62,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (item.getItemId() == R.id.about) {
+            aboutActivity();
         }
 
         return super.onOptionsItemSelected(item);
@@ -119,5 +120,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    private void aboutActivity() {
+        Intent aboutgo  =  new Intent(MainActivity.this,about.class);
+
+        startActivity(aboutgo);
     }
 }
